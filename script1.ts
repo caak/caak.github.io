@@ -1,11 +1,11 @@
 ﻿window.onload = function start() {
 
-    var scriptVar = 'my hidden string!';
-    console.log(scriptVar);
 
-    var p = document.createElement('p');
-    var t = document.createTextNode(scriptVar);
-    p.appendChild(t);
 
-    document.body.appendChild(p);
+    var image1 = document.createElement('img');
+    image1.setAttribute('src', 'https://lh3.googleusercontent.com/oJJKBwnCW3ECFRGVymyrgbNEiNYxRD5zxR_01zn9ozXgI9KOahk__00qkJ_XMNZ89EZJNwdX-QmHmFY2dDTI__1JAKiFmCnBsVyJkrIriiENp6pvWeObJU81geH_O3Rt4eow1frXNqqm_uqKkd11uSVpAyoh_jmDG_rDN9ViX5wpQNEQ0P1alAwwv7uk6j8NteYVGJMe7Xi9lHkWgUfw8tyI6Z5WUYgUUBuH5Unj5jkuUQkTB2PKQB6hgEaynlwNoktCL7hppiR4KycMf3nDH2gHouL4ivvM5J0s4Sl8RKDX3azYyxQqwme-toCnn2FRqEvtmDOxTt_iWitMTdi_Y-zR3LM5G_g1yTNV2uis_g5LLV9xRSdOUbQ_b_yuBPvP733N-RFpaQANPg543YM_8ZyEFsrJuPxomtZsF5AViuGdgriCCJkkOFZtGyrQL3SeoTZ2meZj4iEswWWhGT7FPBSjKBKjEPCsfhNQydC7XiwtWm_-tXNvE0ohTrG8xuUtIklA0cr-C5aqAF_NvFwG9yyJN7kYnM6d1GCDZSySrak=w890-h667-no');
+    image1.addEventListener('click', function () {
+        image1.setAttribute('src', 'https://lh3.googleusercontent.com/9B6afN-XYzILFnSCgyOOxuVPqLvLig7YExOssfM7Dt_64KAQAHy5oyZApFCLnyCUmv6Daj1sB5IsIA5EX0uPyNbNDxLDTZZWetm_iqGT5n5t5Zp79LRMwQCX7Smr-Scdsop1PnGepCfYm71U56Rdas83ezE0B0loyY2FvEf_8_eP2M7hhS6RtbnW71YcmEm6npU8gMtNSESRr6AsOqLwlWtnp7Vduy8v-Xp9Wp_UduBT0BecyEThClTJjRi4khotqojhhsfYtjZXsvgu1mxtagHeZlpKtXqkFHjtxaQd7GymeLYQIBvfCHxQBbeygc9t4IQAezyKAqhi30_SnmRiTamGGCvzyUJZXt6bvF5Oel1VvqpnFKDMDNwK0btVVEWpF_Fs_qksVa0stWN1eSwMqnqpHkBarQ5hkua7VJ_UHaQdOn41nYCQLV-l_CT5_YeXuVh8vNDWpyfp8e_t4xfASwCrrv6FptJUm1Bsz7m2JROHwvYPndfjJQJae2AKZLhHO5BUN8PV-gmivuaIi1ugACrgK_-fvajnWGXCEZfQip0=w890-h667-no');
+    });
+    document.body.appendChild(image1);
 }
